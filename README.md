@@ -8,6 +8,10 @@ namespaces causes the assembly resource file to be incorrectly named.
 
 To reproduce the issue, clone the repository and then run `dotnet run`.
 
+To get the expected behaviour, change the
+[`Resources`](https://github.com/martincostello/FileScopedNamespacesResourcesRepro/blob/3d7cc962c9ecfadc78f294731a93da4501e9a329/Resources.cs#L4-L7)
+class to not use file-scoped namespaces.
+
 ## Expected Behaviour
 
 ```sh
